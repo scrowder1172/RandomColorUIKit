@@ -6,6 +6,9 @@ This project is based off Sean Allen's iOS Dev beginner course. This version of 
 
 <img src="https://github.com/scrowder1172/RandomColorUIKit/assets/13410780/8ba24f75-8c58-439f-acbe-3581ebd91be3" width="200" height="300">
 
+## Enhancements
+I created an additional extension for CGFloat to generate a random number between 0 and 1 (any number can be passed in but these are the defaults).
+
 ## How to install
 
 1. fork the project or download the .zip
