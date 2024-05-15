@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZKC-cv-uac">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="MS6-4s-Y4v">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ColorCell" id="MS6-4s-Y4v">
                                         <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MS6-4s-Y4v" id="xcH-DH-sIb">
@@ -41,7 +41,7 @@
                             <constraint firstItem="kd2-xr-BXZ" firstAttribute="trailing" secondItem="ZKC-cv-uac" secondAttribute="trailing" id="EfW-9p-7Z1"/>
                             <constraint firstItem="ZKC-cv-uac" firstAttribute="top" secondItem="fwk-eU-sgG" secondAttribute="top" id="PH6-Kp-yMf"/>
                             <constraint firstItem="ZKC-cv-uac" firstAttribute="leading" secondItem="kd2-xr-BXZ" secondAttribute="leading" id="b7Y-7O-DbL"/>
-                            <constraint firstItem="kd2-xr-BXZ" firstAttribute="bottom" secondItem="ZKC-cv-uac" secondAttribute="bottom" id="pH3-FJ-gE6"/>
+                            <constraint firstAttribute="bottom" secondItem="ZKC-cv-uac" secondAttribute="bottom" id="lRh-uu-Qpl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Colors" id="EuR-iA-o7b"/>
