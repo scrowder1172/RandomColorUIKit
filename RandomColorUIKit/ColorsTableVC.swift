@@ -15,18 +15,22 @@ class ColorsTableVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func tempButtonTapped(_ sender: UIButton) {
-        performSegue(withIdentifier: "ToColorsDetailVC", sender: nil)  // load ColorsDetailVC
+}
+
+extension ColorsTableVC: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 50  // how many rows will be in the tableView
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // this function runs whenever a new cell appears on the screen
+        
+        return UITableViewCell()  // return blank table view cell
     }
-    */
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "ToColorsDetailVC", sender: nil)  // navigate to color screen when cell is tapped
+    }
+    
 }
