@@ -2,9 +2,9 @@
 
 This project is based off Sean Allen's iOS Dev beginner course. This version of the project uses storyboards to create and manage the layout of the application. The app generates a list of 50 random colors. When the user taps on one of the colors, they are sent to a screen that shows the color fullscreen.
 
-<img src="https://github.com/scrowder1172/RandomColorUIKit/assets/13410780/299d3553-4813-4116-8bbc-db15342757ac" width="300" height="300">
+<img src="https://github.com/scrowder1172/RandomColorUIKit/assets/13410780/299d3553-4813-4116-8bbc-db15342757ac" width="200" height="300">
 
-<img src="https://github.com/scrowder1172/RandomColorUIKit/assets/13410780/8ba24f75-8c58-439f-acbe-3581ebd91be3" width="300" height="300">
+<img src="https://github.com/scrowder1172/RandomColorUIKit/assets/13410780/8ba24f75-8c58-439f-acbe-3581ebd91be3" width="200" height="300">
 
 ## How to install
 
